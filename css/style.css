@@ -1,0 +1,156 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	font-size: 16px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 50px;
+	margin-bottom: 58px;
+}
+
+h3 {
+	font-size: 25px;
+	margin-bottom: 28px;
+}
+
+a {
+	text-decoration: none;
+}
+
+section {
+	padding-top: 113px	
+}
+
+p {
+	margin: 0;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto; /*позиционирование по центру*/
+}
+.header{
+	background: url('../img/header-bg.jpg') no-repeat center top / cover;
+	padding-top: 57px;
+	padding-bottom: 322px;
+	color: #fff;
+	
+}
+header a{
+	color: white;
+}
+.menu{
+	display: flex;
+}
+.menu li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+}
+.menu li{
+	margin-right:  40px; /*расстояние между словами cправа (пунктами списка)*/
+}
+.tel{
+	font-style: 17px;
+	text-decoration: none;
+	margin-left:auto ;
+	letter-spacing: 0.1em;
+}
+.nav{
+	display: flex;
+	align-items: center; /*выравнивание элементов по горизонтали*/
+	padding-top: 57px;
+}
+.logo{
+	margin-right: 69px;
+}
+.offer{
+	text-transform: uppercase;
+	margin-top: 216px;
+	color: white;
+	
+}
+.offer p{
+	font-style: 30px;
+	letter-spacing: 0.1em;
+}
+.offer h1{
+	font-size: 100px;
+	letter-spacing: 0.02em;
+	margin-bottom: 19px;
+	margin-top: -9px;
+	font-weight: normal;
+	margin-left: -3px;
+}
+.btn{
+display: block;
+font-size: 17px;
+text-align: center;
+letter-spacing: 0.1em;
+padding: 17px 47px;
+border: 1px solid #fff;
+width: 238px;
+transition: all 0.5s ease;
+}
+.btn:hover{
+background: white;
+color: #000;
+}
+
+.description {
+	display: flex;
+	text-align: justify;
+	justify-content: space-between; /*раздвигает элменты по левым и правим краям*/
+}
+.description p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	text-align: justify;
+	line-height: 1.62em; /*высота строки*/
+	font-size: 16px;
+}
+.desc-left, .desc-right {
+margin-right: 36px;
+	
+	
+}
+.gallery{
+	margin-top: 67px;
+	display: flex;
+	justify-content: space-between;
+}
+.gallery img{
+	transition: all 0.5s ease;
+}
+.gallery img:hover{
+box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+transform: scale(1.1);
+}
+.footer-text{
+	display: flex;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 114px 0;
+}
+.footer-text p{
+	margin-right: 67px;
+}
