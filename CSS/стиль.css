@@ -4,7 +4,7 @@ body {
 	font-family: 'Anton', sans-serif;
 	color: black;
 	font-size: 16px;
-	min-width: 1170px;
+	
 }
 
 * {
@@ -45,9 +45,9 @@ ul, li {
 	margin: 0;
 }
 .container{
-	width: 1200px;
+	width: 1170px;
 	margin: 0 auto; /*позиционирование по центру*/
-	padding: 0px 15px;
+	
 }
 .header{
 	background: url('../img/header-bg.jpg') no-repeat center top / cover;
